@@ -5,4 +5,5 @@ body {
   font-weight: 100;
   height: 100vh;
   background: linear-gradient(to right, #ffa501, #fcff42, #ffa501);
+  width: 100%;
 }

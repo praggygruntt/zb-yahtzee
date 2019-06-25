@@ -26,7 +26,7 @@ class Die extends Component {
       // </i>
       <FontAwesomeIcon 
         icon={this.props.diceIcons[this.props.val-1]}
-        size={'5x'}
+        size={'3x'}
         className={`Die ${this.props.locked ? 'Die-locked' : null} ${this.props.rolling && "Die-rolling"}`}
         onClick={this.handleClick}
         disabled={this.props.disabled}
